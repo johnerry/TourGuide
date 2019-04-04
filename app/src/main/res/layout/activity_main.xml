@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+      <LinearLayout
+          android:id="@+id/lagos"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:gravity="center_vertical|center_horizontal"
+          android:layout_weight="1">
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/black"
+              android:textSize="24sp"
+              android:text="Lagos"/>
+
+          <ImageView
+              android:layout_width="180dp"
+              android:layout_height="180dp"
+              android:adjustViewBounds="true"
+              android:padding="16dp"
+              android:src="@drawable/lagos_main"/>
+
+      </LinearLayout>
+        <LinearLayout
+            android:id="@+id/abuja"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:text="Abuja"/>
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:adjustViewBounds="true"
+                android:padding="16dp"
+                android:src="@drawable/abuja_acitivity"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/ibadan"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:text="Ibadan"/>
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:adjustViewBounds="true"
+                android:padding="16dp"
+                android:src="@drawable/ibadan_activity"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
